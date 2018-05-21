@@ -6,6 +6,9 @@ h1{
     font-weight: 700;
 
 }
+.row{
+    margin-right: 0px !important;
+}
 .font-600{
     font-weight: 600;
 }
@@ -56,10 +59,7 @@ header{
     background-position: center;
     width:100%;
 }
-#hero-text{
-    padding-top: 190px;
-   
-}
+
 #hero-text div{
     border-left: 6px var(--theme-color) solid;
     margin-left: 20px;
@@ -74,7 +74,7 @@ header{
 }
 
 #subscribe{
-    margin-top: 15px;
+    margin: 10px 10px;
 }
 .subscribe{
     background: #fff;
@@ -187,4 +187,88 @@ header{
     display: inline;
     margin: 5px;
     cursor: pointer;
+}
+
+/* media queries */
+@media (max-width: 700px){}
+.join-conversation .intro {
+    display: block !important;
+    padding: 50px !important;
+}
+
+@media (max-width: 700px)
+{
+  div.about
+  {
+    
+    background: transparent;
+  }
+
+  div.props
+  {
+    padding:10px;
+  }
+  .subscribe-form {
+    padding: 1rem 4rem;
+    background: #e5e5e5;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .join-conversation .intro {
+    display: block !important;
+   padding:50px !important;
+  }
+
+  .join-conversation .text {
+    font-size: 14pt !important;
+    width: 100% !important;
+    margin: 0px !important;
+    margin-right: 2px !important;
+    margin-bottom: 2px !important;
+  }
+  .join-conversation .intro .icons_list {
+    margin: 0px !important;
+    margin-left: 2px !important;
+  }
+}
+
+
+@media (max-width: 392px)
+{
+  .subscribe-form
+  {
+    padding:1rem 4rem;
+    background: #e5e5e5;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .padding-top
+  {
+    padding-top: 2rem;
+  }
+
+  .padding-top--small
+  {
+    padding-top: 1rem;
+  }
+}
+
+@media(max-width: 720px)
+{
+
+  .padding-top
+  {
+    padding-top: 2rem;
+  }
+
+  .padding-top--small
+  {
+    padding-top: 1rem;
+  }
+  
 }
