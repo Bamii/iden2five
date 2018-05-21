@@ -1,0 +1,190 @@
+:root{
+    --theme-color: rgb(33, 150, 83);
+}
+h1{
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.font-600{
+    font-weight: 600;
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-theme{
+    color: #ffffff !important;
+    background-color: var(--theme-color);
+    border-radius: 0px;
+}
+.btn-theme-100{
+    color: #ffffff !important;
+    background-color: var(--theme-color);
+    border-radius: 0px;
+    width: 100% !important;
+}
+section{
+    margin: 30px 0px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.navbar{
+    padding: 10px 30px;
+    background-color: #ffffff !important;
+    font-weight: 600 !important;
+}
+.navbar li{
+    text-transform: uppercase;
+    font-size: .8em;
+}
+header{
+    color: #333333 !important;
+    font-weight: 600 !important; 
+    height: 30px !important;
+}
+#hero{
+    background: url("../assets/images/farmerbg.jpeg");
+    background-size: cover;
+    height: 536px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+}
+#hero-text{
+    padding-top: 190px;
+   
+}
+#hero-text div{
+    border-left: 6px var(--theme-color) solid;
+    margin-left: 20px;
+    color: #ffffff !important;
+}
+#hero-card{
+    background-color: var(--theme-color);
+    padding: 2rem;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#subscribe{
+    margin-top: 15px;
+}
+.subscribe{
+    background: #fff;
+    color: #333 !important;
+    background-color: #E5E5E5;
+}
+.subscribe-form{
+    padding: 1rem 4rem;
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    font-weight: 400 !important;
+}
+.intro-text{
+    padding: 1rem 4rem;
+}
+.product-detail{
+    background-color: #F6F6F6;
+    min-height: 150px;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+    padding-bottom: 20px;
+}
+.product-detail-header{
+    font-size: 3.0rem;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 5px solid var(--theme-color) !important;
+    width: 20%;
+}
+.product-detail-underline{
+    background: var(--theme-color);
+    width: 191px;
+    margin: auto;
+    height: 9px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.token-icon {
+    margin: 5rem auto;
+}
+.join-conversation{
+    background-image: url(../assets/images/footer_img.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.join-conversation .intro {
+    font-weight: 700;
+    font-size: 20pt;
+    padding: 100px;
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+}
+.join-conversation .intro .text {
+    background: var(--theme-color);
+    width: fit-content;
+    font-weight: 700;
+    font-size: 20pt;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    color: #000;
+}
+.join-conversation .intro .icon {
+    margin: 10px;
+    display: inline;
+    cursor: pointer;
+}
+.footer {
+    color: #ffffff;
+    background: var(--theme-color);
+}
+.footer .footer_content {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+.footer .footer_content .email {
+    font-size: 12px;
+    font-weight: 700;
+}
+.text-white {
+    color: #ffffff;
+}
+.footer .seperator {
+    background: #ffffff;
+    width: 100%;
+    margin: 4rem auto;
+    height: 4px;
+    margin-bottom: 10px;
+}
+.footer .others {
+    display: inline-block;
+    width: 100%;
+}
+.footer .others ul {
+    float: right;
+    margin-right: 10%;
+}
+.footer .others ul li {
+    font-weight: 700;
+    display: inline;
+    margin: 5px;
+    cursor: pointer;
+}
